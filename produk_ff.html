@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Top Up Game - Mobile Legends</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <header>
+    <h1>TopUpCenter</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="kategori.html">Kategori</a>
+      <a href="popular.html">Populer</a>
+      <a href="#">Bantuan</a>
+    </nav>
+  </header>
+
+  <main class="produk-detail">
+    <h2>Top Up Free Fire</h2>
+    <img src="https://example.com/mlbb.png" alt="Free Fire" width="150">
+
+    <form id="formTopup">
+      <label for="userId">ID Pemain:</label><br>
+      <input type="text" id="userId" name="userId" required><br><br>
+
+      <label for="nominal">Pilih Nominal:</label><br>
+      <select id="nominal" name="nominal" required>
+        <option value="1000">60 Diamonds - Rp1.000</option>
+        <option value="2000">120 Diamonds - Rp2.000</option>
+        <option value="5000">240 Diamonds - Rp5.000</option>
+      </select><br><br>
+
+      <button type="submit">Bayar Sekarang</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>© 2025 TopUpCenter</p>
+  </footer>
+
+  <script src="script/produk.js"></script>
+</body>
+</html>
